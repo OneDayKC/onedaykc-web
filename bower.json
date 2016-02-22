@@ -1,0 +1,22 @@
+{
+  "name": "onedaykc-web",
+  "version": "1.0.0",
+  "authors": [
+    "Bradley Dice <bdice@bradleydice.com>"
+  ],
+  "description": "#OneDayKC website.",
+  "main": "gulpfile.js",
+  "license": "All Rights Reserved",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-sites": "~6.1.0",
+    "motion-ui": "~1.1.0"
+  },
+  "private": true
+}

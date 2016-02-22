@@ -1,0 +1,14 @@
+{
+  "name": "animate-scroll",
+  "homepage": "https://github.com/mpalpha/animate-scroll",
+  "_release": "7d45c1e7df",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "7d45c1e7df16999838b530d6da94c43ed3af1da1"
+  },
+  "_source": "git://github.com/mpalpha/animate-scroll.git",
+  "_target": "*",
+  "_originalSource": "mpalpha/animate-scroll",
+  "_direct": true
+}
