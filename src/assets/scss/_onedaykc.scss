@@ -114,6 +114,15 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $header-font-family;
 }
 
+.header-underline {
+  border-bottom: 1px solid $butterscotch;
+  margin-bottom: 0.5rem;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
 .button {
   font-weight: 700;
   font-size: 19px;
