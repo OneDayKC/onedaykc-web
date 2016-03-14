@@ -302,3 +302,67 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 0.5rem;
   }
 }
+
+// Alert Boxes
+
+.alert-box {
+  background: #f7f7f7;
+  color: #333;
+  border: none;
+  border-left: 6px solid #008CBA;
+  box-shadow: 0 5px 15px 3px rgba(0,0,0,0.5);
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  
+  &.success {
+    background: #f7f7f7;
+    color: #333;
+  }
+  
+  &.alert {
+    background: #f7f7f7;
+    color: #333;
+  }
+  
+  &.warning {
+    background: #f7f7f7;
+    color: #333;
+  }
+  
+  &.info {
+    background: #f7f7f7;
+    color: #333;
+  }
+  
+  &.small {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    font-size: 0.75rem;
+    
+    .close {
+      font-size: 1.5rem;
+    }
+  }
+  
+  &.large {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-size: 2rem;
+    
+    .close {
+      font-size: 3rem;
+    }
+  }
+  
+  &.onedaykc {
+    border-left: 6px solid $hydrant;
+    background: $creme;
+    color: $maroon;
+    transform: rotate(2deg);
+  }
+  
+  .close {
+    font-size: 2rem;
+    line-height: 1.25rem;
+  }
+}
